@@ -91,17 +91,18 @@
         }
 
         .card {
+            border-radius: 8px;
             border: 1px solid #ddd;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
 
         .card img {
-            max-height: 180px;
-            object-fit: cover;
+            max-height: 160px;
+            object-fit: fill;
         }
 
         .card-title {
-            font-size: 14px;
+            font-size: 13.5px;
             color: #333;
         }
     </style>
@@ -109,8 +110,6 @@
 </head>
 
 <body>
-
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark custom-navbar fixed-top">
         <a class="navbar-brand" href="../index.php" style="color: white;">
             <img src="../assets/img/logo.png" width="55" height="55" alt="Logo" class="d-inline-block align-top">
@@ -143,7 +142,6 @@
         </div>
     </nav>
 
-    <!-- Judul Halaman -->
     <div class="container-fluid" style="margin-top: 6rem;">
         <nav class="navbar navbar-expand-lg navbar-light w-100 justify-content-center p-5" style="background-color: white;">
             <a class="navbar-brand" style="font-size: 2rem; font-weight : bold;">WARTA JEMAAT</a>
@@ -152,37 +150,212 @@
     </div>
     <hr>
 
-    <!-- Kartu Warta Jemaat -->
     <div class="container">
         <div class="row">
-            <div class="col-md-3 mb-4">
+            <div class="col-md-2 mb-4">
                 <div class="card">
-                    <img src="../assets/img/warta1.jpg" class="card-img-top" alt="WJ 2023-09">
-                    <div class="card-body text-center">
-                        <p class="card-title font-weight-bold">WJ 2023-09 (Sep)</p>
-                    </div>
+                    <a href="https://drive.google.com/file/d/1L9TxOWAZXeq6k-L1NslWDwhDNK6KC_0e/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/wj 2024-10 (Okt).pdf.webp" class="card-img-top" alt="WJ 2023-09">
+                        <div class="card-body text-center">
+
+                            <p class="card-title font-weight-bold">WJ 2024-10 (Okt)</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-3 mb-4">
+            <div class="col-md-2 mb-4">
                 <div class="card">
-                    <img src="../assets/img/warta2.jpg" class="card-img-top" alt="WJ 2022-01">
-                    <div class="card-body text-center">
-                        <p class="card-title font-weight-bold">WJ 2022-01 (Jan)</p>
-                    </div>
+                    <a href="https://drive.google.com/file/d/1RWS1xRcYKQtZDTH5m1P96_ob_gx225O_/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/WJ 2024-09 (Sep).pdf.webp" class="card-img-top" alt="WJ 2022-01">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-09 (Sep)</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-3 mb-4">
+            <div class="col-md-2 mb-4">
                 <div class="card">
-                    <img src="../assets/img/warta3.jpg" class="card-img-top" alt="WJ 2024-09">
-                    <div class="card-body text-center">
-                        <p class="card-title font-weight-bold">WJ 2024-09 (Sep)</p>
-                    </div>
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/WJ 2024-08 (Agt).pdf.webp" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-08 (Agt)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/WJ 2024-07 (Juli).pdf.webp" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-07 (Juli)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/WJ 2024-06 (Juni).pdf.webp" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-06 (Juni)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/wj 2024-10 (Okt).pdf.webp" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-05 (Mei)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-04 (Apr)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-03 (Mar)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-02 (Feb)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2024-01 (Jan)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-12 (Des)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-11 (Nov)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-10 (Okt)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-09 (Sep)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-08 (Agt)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-07 (Juli)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-06 (Juni)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-05 (Mei)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img-top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-04 (Apr)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card">
+                    <a href="https://drive.google.com/file/d/1DMGN1Ulyfacj6yDdtW17r_evA7k_kCrY/view?usp=drive_link" target="_blank">
+                        <img src="../assets/img/logo.png" class="card-img- top" alt="WJ 2024-09">
+                        <div class="card-body text-center">
+                            <p class="card-title font-weight-bold">WJ 2023-03 (Mar)</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -206,7 +379,6 @@
         </div>
     </footer>
 
-    <!-- Script untuk Navbar Collapse -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
